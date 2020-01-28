@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  role_name: docker
+  author: xcdr
+  description: Ansible role for Docker CE
+  license: MIT
+  min_ansible_version: 2.6
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+  galaxy_tags:
+    - docker
+    - docker-ce
+    - debian
+    - ubuntu
+
+dependencies: []
